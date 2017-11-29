@@ -7,6 +7,7 @@ dependencies:
   - scipy
   - jupyter
   - matplotlib
+  - statsmodels
   - python=3.6
   - pip:
     - tensorflow
