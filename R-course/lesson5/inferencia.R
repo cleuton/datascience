@@ -85,3 +85,7 @@ if (pvalue < 0.05) {
 } else {
   print('Não rejeitamos a hipótese nula pelo valor-p')
 }
+
+# Utilizando a função "T Test": 
+
+print(t.test(lote,alternative = "less", mu=60, conf.level = 0.95))
