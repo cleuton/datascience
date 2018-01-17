@@ -15,7 +15,7 @@ print(tail(df))
 # Arquivos CSV não convencionais:
 df2 <- read.csv('dataset-nao-convencional.csv',dec = ',', sep = ";")
 str(df2)
-summary(df2)
+print(summary(df2))
 
 # Especificando as classes das colunas: 
 # logical, integer, numeric, character, raw, "factor", "Date"
@@ -36,4 +36,19 @@ df6 <- read.csv('datas-horas.csv', colClasses = c('character', 'numeric', 'numer
 str(df6)
 df6$Nascimento <- strptime(df6$Nascimento,format='%d-%m-%Y %H:%M:%S')
 str(df6)
-head(df6)
+print(head(df6))
+
+# Lidando com valores faltantes retirando as linhas
+
+df <- na.omit(read.csv('faltando-valor.csv'))
+print(head(df))
+
+# Lidando com valores faltantes substituindo-os pela média: 
+
+df2 <- read.csv('faltando-valor.csv')
+print(summary(df2))
+df2$Inflacao[is.na(df2$Inflacao)] <- mean(df2$Inflacao, na.rm = TRUE)
+print(head(df2))
+
+
+
