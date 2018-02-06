@@ -1,0 +1,5 @@
+name: rdatascience
+dependencies:
+  - r-irkernel
+  - r-essentials
+

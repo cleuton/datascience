@@ -1,0 +1,10 @@
+First: 
+conda install clangxx_osx-64 if using MacOS
+export CONDA_BUILD_SYSROOT=$(xcrun --show-sdk-path)
+
+After: 
+source activate...
+And then invoke R:
+update.packages(repos = "http://cran.us.r-project.org", ask = FALSE)
+install.packages(c("utf8", "readr", "dplyr", "tidyr", "mnormt","psych","SnowballC","hunspell","broom","tokenizers","magrittr","wordcloud", "tidyRSS"), repos = "http://cran.us.r-project.org")
+install.packages("tidytext", repos = "http://cran.us.r-project.org")
