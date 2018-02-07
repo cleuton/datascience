@@ -27,6 +27,6 @@ If you want to run the R script:
 1) [**Install R**](https://www.r-project.org)
 2) [**Install RStudio**](https://www.rstudio.com)
 3) **Run the commands**. Run the commands inside [r-packages.txt](./r-packages.txt) inside RStudio's console.
-4) **Open the script**. Open file [**newscloud.R**](./newscloud.T)
+4) **Open the script**. Open file [**newscloud.R**](./newscloud.R)
 
  
