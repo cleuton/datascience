@@ -1,0 +1,4 @@
+antes de rodar o notebook: 
+
+pip install tensorflow
+pip install keras
