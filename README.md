@@ -3,19 +3,19 @@
 [*Cleuton Sampaio*](https://github.com/cleuton)
 
 Aqui, você encontrará materiais dos meus livros: 
-- [**Datascience para programadores - Usando python**](./book) Editora Ciência Moderna
-- [**Datascience para profissionais - Usando R**](./book-R) Editora Ciência Moderna
+- [**Datascience para programadores - Usando python**](https://github.com/cleuton/datascience/tree/master/book/) Editora Ciência Moderna
+- [**Datascience para profissionais - Usando R**](https://github.com/cleuton/datascience/tree/master/book-R) Editora Ciência Moderna
 - **Bigdata BigBusiness** Editora Ciência Moderna
 
 Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo o meu curso gratuito de [**Introdução à datascience com R**](R-course/README.md) está disponível aqui
 
 ## Datasets
 
-Também separei um conjunto fantástico de [**datasets**](./datasets) para você aprender datascience.
+Também separei um conjunto fantástico de [**datasets**](https://github.com/cleuton/datascience/tree/master/datasets) para você aprender datascience.
 
 ## Natural Language Processing
 
-Tenho também alguns exemplos interessantes de [**NLP**](./nlp): tagCloud e Análise de sentimentos, incluindo análise de *RSS feeds* e *Tweets*.
+Tenho também alguns exemplos interessantes de [**NLP**](https://github.com/cleuton/datascience/tree/master/nlp): tagCloud e Análise de sentimentos, incluindo análise de *RSS feeds* e *Tweets*.
 
 Navegue, descubra e divulgue! Para me seguir, use os canais: 
 
