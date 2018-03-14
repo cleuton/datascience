@@ -2,6 +2,8 @@
 # O seu Hub de Datascience, Machine Learning e IA
 [*Cleuton Sampaio*](https://github.com/cleuton)
 
+![](./minicapa.jpg)
+
 Aqui, você encontrará materiais dos meus livros: 
 - [**Datascience para programadores - Usando python**](https://github.com/cleuton/datascience/tree/master/book/) Editora Ciência Moderna
 - [**Datascience para profissionais - Usando R**](https://github.com/cleuton/datascience/tree/master/book-R) Editora Ciência Moderna
