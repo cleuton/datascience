@@ -21,5 +21,29 @@ Resumindo:
 
 Mas deve atribuir o crédito original ao Autor. 
 
+Vídeos: 
+
+1. [*Visão geral do curso*](https://www.youtube.com/watch?v=E5MXqejCmaw)
+2. [*Estatística básica: Tendência central*](https://www.youtube.com/watch?v=pQB8A3DbXII)
+3. [*Estatística básica: Dispersão*](https://www.youtube.com/watch?v=g8CUxTO5nWE)
+4. [*Probabilidades*](https://www.youtube.com/watch?v=Fk7XlVYI-yQ)
+5. [*Inferência*](https://www.youtube.com/watch?v=d8QcU2xtgCQ)
+6. [*Datasets*](https://www.youtube.com/watch?v=FG7kxbuEO_Q)
+7. [*Regressão*](https://www.youtube.com/watch?v=ZeCzySGKQ0E)
+8. [*Classificação*](https://www.youtube.com/watch?v=7osAQUn2pnw)
+
+Materiais e exemplos: 
+
+1. [*Visão geral do curso*](./lesson1/)
+2. [*Estatística básica: Tendência central*](./lesson2)
+3. [*Estatística básica: Dispersão*](./lesson3)
+4. [*Probabilidades*](./lesson4)
+5. [*Inferência*](./lesson5)
+6. [*Datasets*](./lesson6)
+7. [*Regressão*](./lesson7)
+8. [*Classificação*](./lesson8)
+
+
+
 
 
