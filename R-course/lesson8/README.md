@@ -2,4 +2,4 @@
 Esta é a Sétima lição deste curso.
 Assista ao [**vídeo da  sessão**](https://youtu.be/7osAQUn2pnw)
 
-[*Pasta completa*](./lesson8)
+[*Pasta completa*](https://github.com/cleuton/datascience/tree/master/R-course/lesson8)

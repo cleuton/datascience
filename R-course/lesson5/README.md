@@ -2,4 +2,4 @@
 Esta é a quinta lição deste curso.
 Assista ao [**vídeo da  sessão**](https://youtu.be/d8QcU2xtgCQ)
 
-[*Pasta completa*](./lesson5)
+[*Pasta completa*](https://github.com/cleuton/datascience/tree/master/R-course/lesson5)
