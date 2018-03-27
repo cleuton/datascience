@@ -1,3 +1,3 @@
-![](./logo_fundo_branco.png)
+![](../logo_fundo_branco.png)
 
 # NLP
