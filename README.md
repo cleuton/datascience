@@ -14,6 +14,10 @@ Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo
 
 [![](./olhar_computacional.bmp)](http://olharcomputacional.com)
 
+## IoT & Datascience
+
+[![](./logo-iotreta.png)](http://iotreta.com)
+
 Artigos sobre visão computacional com Deep Learning!
 - [**Reconhecimento facial** Com Raspberry PI e TensorFlow](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
 - [**Detecção de rostos e classificação para webcams**](http://www.obomprogramador.com/2018/09/deteccao-e-reconhecimento-facial-para.html)
