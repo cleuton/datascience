@@ -10,6 +10,10 @@ Aqui, você encontrará materiais dos meus livros:
 
 Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo o meu curso gratuito de [**Introdução à datascience com R**](R-course/README.md) está disponível aqui
 
+## Cursos 
+
+Inscreva-se [**AQUI**](https://docs.google.com/forms/d/e/1FAIpQLSeXFovnhshWYbuvAtQP37pQZNYCIwPsyLBx1_9QBamOGUwRfw/viewform?usp=sf_link) para nossos cursos presenciais!!!!! Sem compromisso e **SEM SPAM**
+
 ## Visão computacional
 
 [![](./olhar_computacional.bmp)](http://olharcomputacional.com)
