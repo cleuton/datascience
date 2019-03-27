@@ -35,6 +35,14 @@ Também separei um conjunto fantástico de [**datasets**](https://github.com/cle
 
 Tenho também alguns exemplos interessantes de [**NLP**](https://github.com/cleuton/datascience/tree/master/nlp): tagCloud e Análise de sentimentos, incluindo análise de *RSS feeds* e *Tweets*.
 
+## Reconhecimento facial
+
+Temos vários artigos e farto código sobre reconhecimento facial: 
+1. [**Reconhecimento facial com Java, C++ usando HOG**](http://www.obomprogramador.com/2019/03/comparacao-de-rostos-com-java-e-c.html);
+2. [**Reconhecimento facial com Tensorflow e CNN**](http://www.obomprogramador.com/2019/03/reconhecimento-e-classificacao-facial.html)
+
+# SIGA-ME
+
 Navegue, descubra e divulgue! Para me seguir, use os canais: 
 
 - [**LinkedIn**](https://www.linkedin.com/in/cleutonsampaio/)
@@ -46,3 +54,4 @@ Exceto quando explicitamente escrito, todos os materiais são licenciados sob
 ![CC by 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 [*Creative Commons - Atribuição  4.0 Internacional*](http://creativecommons.org/licenses/by/4.0/)
+
