@@ -1,0 +1,7 @@
+name: kerastraining
+dependencies:
+- python=3.7
+- pip: 
+  - tensorflow
+  - tensorflowonspark
+  - scikit-learn

@@ -41,6 +41,10 @@ Temos vários artigos e farto código sobre reconhecimento facial:
 1. [**Reconhecimento facial com Java, C++ usando HOG**](http://www.obomprogramador.com/2019/03/comparacao-de-rostos-com-java-e-c.html);
 2. [**Reconhecimento facial com Tensorflow e CNN**](http://www.obomprogramador.com/2019/03/reconhecimento-e-classificacao-facial.html)
 
+## Deep learning
+
+Aqui também temos exemplos de *Deep Learning* com vários frameworks. Por exemplo, temos esse tutorial utilizando o **Keras**: [**Exemplo de deep learning com Keras**](./keras).
+
 # SIGA-ME
 
 Navegue, descubra e divulgue! Para me seguir, use os canais: 
