@@ -1,0 +1,6 @@
+name: alinktest
+dependencies:
+- python=3.7
+- jupyter
+- numpy
+- matplotlib
