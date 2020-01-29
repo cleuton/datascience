@@ -1,6 +1,7 @@
 # ANÁLISE DE SENTIMENTOS DE TEXTOS EM PORTUGUÊS
 
-![](./graph.png)
+![](./sentiment_result.png)
+
 [*Cleuton Sampaio*, Outubro de 2019](https://github.com/cleuton)
 
 Toda empresa tem um canal de atendimento ao cliente, certo? Pode ser um endereço de *email*, ou um formulário no qual o cliente registra sua mensagem. 
@@ -98,5 +99,9 @@ Joining, by = "word"
 ```
 
 Quanto mais positiva a avaliação, maior o sentimento positivo da mensagem, e vice-versa. Uma mensagem com avaliação zero é neutra. 
+
+Veja a execução completa no **Rstudio**:
+
+![](./running.png)
 
 *Cleuton Sampaio, M.Sc.*
