@@ -17,7 +17,6 @@
 
 #  Souza, M.; Vieira, R.; Busetti, D.; Chishman, R. e Alves, I. M. Construction of a Portuguese Opinion Lexicon from multiple resources. 8th Brazilian Symposium in Information and Human Language Technology, 2011. [pdf] [bib]
 #http://ontolp.inf.pucrs.br/Recursos/downloads-OpLexicon.php
-#
 library(readr)
 library(dplyr)
 library(stringr)
@@ -36,9 +35,15 @@ stopwords <- read_csv('portuguese-stopwords.txt', col_names = 'word')
 fhome = Sys.getenv("SENTIMENT_TEXT")
 file_list <- list.files(path=fhome)
 setwd(fhome)
+graphdata <- c(0,0,0,0,0)
+graphlabel <- c("Muito insatisfeito","Insatisfeito", "Neutro", "Satisfeito", "Muito satisfeito")
+locale(date_names = "en", date_format = "%AD", time_format = "%AT",
+  decimal_mark = ".", grouping_mark = ",", tz = "UTC",
+  encoding = "UTF-8", asciify = FALSE)
+default_locale()
 for (i in 1:length(file_list)){
   filename <- file_list[i]
-  feed <- read_file(filename)
+  feed <- read_file(filename,locale= locale(encoding="UTF-8"))
   tdf <- tibble(line=1:1,text=feed)
   rss_t <- tdf %>%
     unnest_tokens(word,text) %>%
@@ -49,5 +54,23 @@ for (i in 1:length(file_list)){
     group_by(line) %>%
     summarize(peso = sum(weight, na.rm = TRUE))
   print(feed)
-  print(sentimentoFeed)
+  evaluation <- sentimentoFeed[["peso"]]
+  evaluation <- ifelse(length(evaluation)==0,0,evaluation)
+  slicevalue <- 1
+  print(evaluation)
+  if (evaluation == 0) {
+    slicevalue <- 3
+  } else if (evaluation < -1) {
+      slicevalue <- 1
+  } else if (evaluation < 0) {
+      slicevalue <- 2
+  } else if (evaluation > 1) {
+      slicevalue <- 5
+  } else {slicevalue <- 4}
+  graphdata[slicevalue] <- graphdata[slicevalue] + 1
 }
+fname <- paste(shome,"/result.jpg",sep="")
+jpeg(filename=fname,width=800,height=800)
+pie(graphdata, labels = graphlabel, main="Satisfação dos clientes")
+dev.off()
+
