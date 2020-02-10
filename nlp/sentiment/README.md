@@ -4,6 +4,8 @@
 
 [*Cleuton Sampaio*, Outubro de 2019](https://github.com/cleuton)
 
+[**ENGLISH VERSION**](./english.md)
+
 Toda empresa tem um canal de atendimento ao cliente, certo? Pode ser um endereço de *email*, ou um formulário no qual o cliente registra sua mensagem. 
 
 É muito difícil analisar quantitativamente as mensagens, sendo um trabalho tedioso e que requer muitas horas de leitura e interpretação. 
