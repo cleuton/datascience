@@ -12,42 +12,40 @@
 #See the License for the specific language governing permissions and
 #limitations under the License.
 #
-#Neste trabalho, usamos o dicionário léxico OpLexicon:
-#  Souza, M.; Vieira, R. Sentiment Analysis on Twitter Data for Portuguese Language. 10th International Conference Computational Processing of the Portuguese Language, 2012. [pdf] [bib]
-
-#  Souza, M.; Vieira, R.; Busetti, D.; Chishman, R. e Alves, I. M. Construction of a Portuguese Opinion Lexicon from multiple resources. 8th Brazilian Symposium in Information and Human Language Technology, 2011. [pdf] [bib]
-#http://ontolp.inf.pucrs.br/Recursos/downloads-OpLexicon.php
+# In this code I used the AFINN lexicon file: 
+# http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010
+#
 library(readr)
 library(dplyr)
 library(stringr)
 library(tidytext)
+library(stopwords)
 shome = Sys.getenv("SENTIMENT_HOME")
 setwd(shome)
-oplexicon <- read_csv('./oplexicon_v3.0/lexico_v3.0.txt', col_names = c('word', 'type', 'weight', 'other'), col_types = 
+oplexicon <- read_csv('./AFINN-111.csv', col_names = c('word', 'weight'), col_types = 
                         cols(
                           word = col_character(),
-                          type = col_character(),
-                          weight = col_integer(), 
-                          other = col_character()
+                          weight = col_integer()
                         ))
 head(oplexicon)
-stopwords <- read_csv('portuguese-stopwords.txt', col_names='word')
-fhome = Sys.getenv("SENTIMENT_TEXT")
+word <- stopwords("en")
+stpwords <- data.frame(word)
+fhome = Sys.getenv("SENTIMENT_TEXT_ENGLISH")
 file_list <- list.files(path=fhome)
 setwd(fhome)
 graphdata <- c(0,0,0,0,0)
-graphlabel <- c("Muito insatisfeito","Insatisfeito", "Neutro", "Satisfeito", "Muito satisfeito")
+graphlabel <- c("Very dissatisfied","Dissatisfied", "Neutral", "Satisfied", "Very Satisfied")
 locale(date_names = "en", date_format = "%AD", time_format = "%AT",
   decimal_mark = ".", grouping_mark = ",", tz = "UTC",
   encoding = "UTF-8", asciify = FALSE)
 default_locale()
 for (i in 1:length(file_list)){
   filename <- file_list[i]
-  feed <- read_file(filename,locale= locale(encoding="UTF-8"))
+  feed <- read_file(filename)
   tdf <- tibble(line=1:1,text=feed)
   rss_t <- tdf %>%
     unnest_tokens(word,text) %>%
-    anti_join(stopwords,by="word") 
+    anti_join(stpwords,by="word") 
   
   sentimentoFeed <- rss_t %>%
     inner_join(oplexicon) %>%
@@ -57,20 +55,21 @@ for (i in 1:length(file_list)){
   evaluation <- sentimentoFeed[["peso"]]
   evaluation <- ifelse(length(evaluation)==0,0,evaluation)
   slicevalue <- 1
-  print(evaluation)
+  
   if (evaluation == 0) {
     slicevalue <- 3
-  } else if (evaluation < -1) {
+  } else if (evaluation < -2) {
       slicevalue <- 1
   } else if (evaluation < 0) {
       slicevalue <- 2
-  } else if (evaluation > 1) {
-      slicevalue <- 5
-  } else {slicevalue <- 4}
+  } else if (evaluation < 2) {
+      slicevalue <- 4
+  } else {slicevalue <- 5}
   graphdata[slicevalue] <- graphdata[slicevalue] + 1
+  print(slicevalue)
 }
-fname <- paste(shome,"/result.jpg",sep="")
+fname <- paste(shome,"/result_english.jpg",sep="")
 jpeg(filename=fname,width=800,height=800)
-pie(graphdata, labels = graphlabel, main="Satisfação dos clientes")
+pie(graphdata, labels = graphlabel, main="Customer's satisfaction")
 dev.off()
 
