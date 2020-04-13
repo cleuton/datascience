@@ -8,11 +8,13 @@ Aqui, você encontrará materiais dos meus livros:
 - [**Datascience para programadores - Usando python**](https://github.com/cleuton/datascience/tree/master/book/) Editora Ciência Moderna
 - [**Datascience para profissionais - Usando R**](https://github.com/cleuton/datascience/tree/master/book-R) Editora Ciência Moderna
 
+## Cursos
+
 Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo o meu curso gratuito de [**Introdução à datascience com R**](R-course/README.md) está disponível aqui
 
-## Cursos 
-
-Inscreva-se [**AQUI**](https://docs.google.com/forms/d/e/1FAIpQLSeXFovnhshWYbuvAtQP37pQZNYCIwPsyLBx1_9QBamOGUwRfw/viewform?usp=sf_link) para nossos cursos presenciais!!!!! Sem compromisso e **SEM SPAM**
+Outro curso interessante para você: [**Visualização de dados com python**](./datavisualization)
+![](./datavisualization/visualizacoes1.png)
+ 
 
 ## Visão computacional
 
