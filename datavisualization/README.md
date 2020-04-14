@@ -16,3 +16,10 @@ Nesta lição veremos a parte básica de geração de gráficos, com formataçã
 
 Veja [**AQUI**](./data_visualization_python.ipynb) O Notebook Jupyter dessa lição.
 
+# 2 - Visualizações com mais de 2 dimensões
+
+Nesta lição veremos como fornecer visualizações com mais de duas dimensões de dados.
+
+![](./vis2.png)
+
+Veja [**AQUI**](./data_visualization_python_2.ipynb) O Notebook Jupyter dessa lição.
