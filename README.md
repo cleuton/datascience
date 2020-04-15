@@ -14,6 +14,9 @@ Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo
 
 Outro curso interessante para você: [**Visualização de dados com python**](./datavisualization)
 ![](./datavisualization/visualizacoes1.png)
+
+English version: [**Data Visualization with Python**](./datavisualization/README_english.md)
+
  
 
 ## Visão computacional

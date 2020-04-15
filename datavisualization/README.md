@@ -2,7 +2,9 @@
 # O seu Hub de Datascience, Machine Learning e IA
 [*Cleuton Sampaio*](https://github.com/cleuton)
 
-[![](./banner_livros2.png)](https://www.lcm.com.br/site/#livros/busca?term=cleuton)
+[![](../banner_livros2.png)](https://www.lcm.com.br/site/#livros/busca?term=cleuton)
+
+[**ENGLISH VERSION**](./README_english.md)
 
 ## Mini curso de visualização de dados com Python
 
