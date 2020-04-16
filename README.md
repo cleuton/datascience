@@ -8,6 +8,11 @@ Aqui, você encontrará materiais dos meus livros:
 - [**Datascience para programadores - Usando python**](https://github.com/cleuton/datascience/tree/master/book/) Editora Ciência Moderna
 - [**Datascience para profissionais - Usando R**](https://github.com/cleuton/datascience/tree/master/book-R) Editora Ciência Moderna
 
+## Covid19 Brasil
+
+[**Aqui**](./covid19_Brasil/Covid19_no_Brasil.ipynb) você vê a aplicação do meu mini-curso de visualização de dados com Python, utilizando dados de casos de **Covid19** no Brasil. 
+![](./covid19_Brasil/casos.png)
+
 ## Cursos
 
 Além de vídeos, cursos, exemplos e farto material para o seu aprendizado. Todo o meu curso gratuito de [**Introdução à datascience com R**](R-course/README.md) está disponível aqui
